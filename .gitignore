@@ -221,3 +221,38 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets and config
+.env
+*.env
+config.local.*
+*.key
+*.pem
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and data
+*.log
+logs/
+*.pcap
+*.pcapng
+data/raw/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
